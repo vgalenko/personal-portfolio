@@ -1,0 +1,17 @@
+.clearfix {
+  clear: both;
+}
+
+div.slider {
+  border: 1px solid black;
+  height: 20em;
+  max-width: 100%;
+}
+
+.projects {
+  border: 1px solid black;
+  height: 10em;
+  max-width: 20%;
+  display: inline-block;
+  position: relative;
+}

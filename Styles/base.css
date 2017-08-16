@@ -1,0 +1,15 @@
+main, header{
+  width: 80%;
+  margin: auto;
+}
+
+h1 {
+  font-size: 2em;
+  float: left;
+  padding: .2em 0em .2em 0em;
+}
+
+h3 {
+  font-size: 1.5em;
+  padding: 1em 0 1em 0;
+}
