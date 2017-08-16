@@ -12,6 +12,6 @@ div.slider {
   border: 1px solid black;
   height: 10em;
   max-width: 20%;
-  display: inline-block;
   position: relative;
+  display:block;
 }
