@@ -5,11 +5,19 @@ nav ul li {
   padding-top: 1em;
 }
 
+.icon-menu {
+  font-size: 3em;
+  float: right;
+}
 
-@media only screen and (max-width: 640px) {
-
-  .main-menu {
-    display: block;
+@media only screen and (max-width: 600px) {
+  nav {
+    display: none;
   }
 
 }
+
+@media only screen and (min-width: 600px) {
+  .icon-menu {
+    display: none;
+  }
