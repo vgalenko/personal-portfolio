@@ -14,34 +14,36 @@
 
   <header>
     <h1>Vitaliy Galenko</h1>
-    <nav class="main-menu">
-      <ul>
-        <li><a href="#">HOME</a></li>
-        <li><a href="#">PROJECTS</a></li>
-        <li><a href="#">ABOUT</a></li>
-      </ul>
-    </nav>
+      <div class="icon-menu"></div>
+      <nav>
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">PROJECTS</a></li>
+          <li><a href="#">ABOUT</a></li>
+        </ul>
+      </nav>
   </header>
 
   <main>
     <div class="clearfix"></div>
-    <div class="slider" id="slider"></div>
+    <div id="slider">
+      <ul>
+        <li><img src="styles/imgs/coding.jpg" alt=""></li>
+        <li><img src="styles/imgs/cycling.jpg" alt=""></li>
+        <li><img src="styles/imgs/hiking.jpg" alt=""></li>
+      </ul>
+    </div>
 
-    <section>
-      <h3>Projects</h3>
-      <section class="projects">
-        <ul>
-          <li class="projects-tab"><a href="#">Project1</a></li>
-          <li class="projects-tab"><a href="#">Project2</a></li>
-          <li class="projects-tab"><a href="#">Project3</a></li>
-          <li class="projects-tab"><a href="#">Project4</a></li>
-        </ul>
-      </section>
-
+    <section id="project-window">
+      <div class="projects"><p>Project1</p></div>
+      <div class="projects"><p>Project2</p></div>
+      <div class="projects"><p>Project3</p></div>
+      <div class="projects"><p>Project4</p></div>
+      <div class="clearfix"></div>
     </section>
 
     <article class="skills">
-      <h3>Skills</h3>
+      <h3>SKILLS</h3>
       <ul class="skills-list" id="first-ul">
         <li>JavaScrip</li>
         <li>jQuery</li>
@@ -69,6 +71,7 @@
   </main>
   <footer>
   </footer>
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="scripts/app.js"></script>
 </body>
 </html>
