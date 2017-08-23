@@ -7,7 +7,8 @@ const skills = {
       "skill4": "CSS",
       "skill5": "RWD",
       "skill6": "AJAX",
-      "skill7": "SQL"
+      "skill7": "SQL",
+      "skill8": "NODE.js"
     }
   ]
 };
