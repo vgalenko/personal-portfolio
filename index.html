@@ -9,6 +9,17 @@
   <link rel="stylesheet" href="styles/icons.css">
   <link rel="stylesheet" href="styles/layout.css">
   <link rel="stylesheet" href="styles/modules.css">
+  <script id="template" type="text/x-handlebars-template">
+    <ul>
+      <li>{{skill1}}</li>
+      <li>{{skill2}}</li>
+      <li>{{skill3}}</li>
+      <li>{{skill4}}</li>
+      <li>{{skill5}}</li>
+      <li>{{skill6}}</li>
+      <li>{{skill7}}</li>
+    </ul>
+  </script>
 </head>
 <body>
 
@@ -42,22 +53,9 @@
       <div class="clearfix"></div>
     </section>
 
-    <article class="skills">
-      <h3>SKILLS</h3>
-      <ul class="skills-list" id="first-ul">
-        <li>JavaScrip</li>
-        <li>jQuery</li>
-        <li>HTML</li>
-        <li>CSS</li>
-      </ul>
+          <h3>SKILLS</h3>
 
-      <ul class="skills-list" id="second-ul">
-        <li>SQL</li>
-        <li>RWD</li>
-        <li>AJAX</li>
-        <li>SPA</li>
-      </ul>
-    </article>
+    <ul class="skills-list"></ul>
 
     <article class="about-me">
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -72,6 +70,8 @@
   <footer>
   </footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js"></script>
   <script src="scripts/app.js"></script>
+  <script src="scripts/blog.js"></script>
 </body>
 </html>
