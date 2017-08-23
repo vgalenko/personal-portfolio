@@ -6,3 +6,9 @@ $(function () {
     });
   },3000);
 });
+
+$(document).ready(function(){  // mobile icon menu toggle function
+  $('.icon-container').click(function(){
+    $('.main-nav').toggle();
+  });
+});

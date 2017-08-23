@@ -18,9 +18,14 @@ nav ul li {
     height: 15em;
     overflow: hidden;
   }
+.main-nav ul{
+    height: 7em;
+    width: 7em;
+    background: #EBEDEF;
+    float: right;
+  }
 
 }
-
 
 @media only screen and (min-width: 600px) {
   .icon-menu {
