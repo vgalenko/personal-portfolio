@@ -22,14 +22,3 @@
 #project-window div{
   width: 100%;
 }
-
-.about-me{
-  float: left;
-}
-
-.skills-ul li{
-  padding: 5px 0px 5px 0;
-  list-style: circle;
-  margin-left: 30px;
-
-}

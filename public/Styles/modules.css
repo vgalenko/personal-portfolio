@@ -12,8 +12,12 @@ nav ul li {
 }
 
 .content-li {
-
   margin-top: 20px;
+}
+
+.content-display {
+  background: #EBEDEF;
+  padding: 5px 10px 20px 10px;
 }
 
 .icon-container {
@@ -29,7 +33,7 @@ nav ul li {
     height: 15em;
     overflow: hidden;
   }
-.main-nav ul{
+  .main-nav ul{
     height: 7em;
     width: 7em;
     background: #EBEDEF;
