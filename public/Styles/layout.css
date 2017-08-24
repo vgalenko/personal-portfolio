@@ -20,10 +20,5 @@
 }
 
 #project-window div{
-  width: 1250px;
-}
-
-.skills .skills-list .about-me{
-  float: left;
-
+  width: 100%;
 }

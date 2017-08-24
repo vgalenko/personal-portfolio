@@ -6,3 +6,15 @@ $(function () {
     });
   },3000);
 });
+
+$(document).ready(function(){  // mobile icon menu toggle function
+  $('.icon-container').click(function(){
+    $('.main-nav').toggle();
+  });
+});
+
+$(document).ready(function(){
+  let contentTemplate = $('#template').html();
+  let compileTemplate = Handlebars.compile(contentTemplate);
+  $('.content-display').html(compileTemplate(skills));
+});
