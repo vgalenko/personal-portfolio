@@ -12,3 +12,9 @@ $(document).ready(function(){  // mobile icon menu toggle function
     $('.main-nav').toggle();
   });
 });
+
+$(document).ready(function(){
+  let contentTemplate = $('#template').html();
+  let compileTemplate = Handlebars.compile(contentTemplate);
+  $('.skills-list').html(compileTemplate(skills));
+});
