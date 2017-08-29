@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Portfolio</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="vendor/styles/reset.css">
   <link rel="stylesheet" href="public/styles/base.css">
@@ -11,25 +12,26 @@
   <link rel="stylesheet" href="public/styles/modules.css">
   <script id="template" type="text/x-handlebars-template">
     <ul class="content-ul">
-      <li class="content-li"><span class="content-span">SKILLS:</span> {{skills}}</li>
+      <li class="content-li" id="skills-list"><span class="content-span">SKILLS:</span> {{skills}}</li>
       <li class="content-li"><span class="content-span">ABOUT ME:</span> {{about}}</li>
     </ul>
   </script>
 </head>
+
 <body>
   <header>
     <h1>Vitaliy Galenko</h1>
-      <div class="icon-container">
-        <div class="icon-menu"></div>
-        <div class="icon-menu"></div>
-        <div class="icon-menu"></div>
-      </div>
-      <nav class="main-nav">
-        <ul>
-          <li><a href="#">HOME</a></li>
-          <li><a href="#">PROJECTS</a></li>
-          <li><a href="#">ABOUT</a></li>
-        </ul>
+    <div class="icon-container">
+      <div class="icon-menu"></div>
+      <div class="icon-menu"></div>
+      <div class="icon-menu"></div>
+    </div>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">PROJECTS</a></li>
+        <li><a href="#">ABOUT</a></li>
+      </ul>
       </nav>
   </header>
 
@@ -57,11 +59,12 @@
 
   </main>
   <footer>
+    <p>Vitaliy Galenko &copy All Rights Reserved 2017</p>
   </footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js"></script>
-  <script src="public/scripts/blog.js"></script>
-  <script src="public/scripts/app.js"></script>
+  <script src="public/scripts/models/blog.js"></script>
+  <script src="public/scripts/views/app.js"></script>
   <script src="server.js">
 
   </script>

@@ -2,17 +2,25 @@ nav ul li {
   display: inline-block;
   float: right;
   padding-right: 1em;
-  padding-top: 1em;
+  padding-top: 1.7em;
 }
 
 .content-span {
   font-size: 1em;
-  font-weight: bold;
-  padding-right: 10px;
+  font-weight: 700;
+  padding-right: 5px;
+  font-family: 'Open Sans', sans-serif;
+  color: #674782;
 }
 
 .content-li {
   margin-top: 20px;
+  font-family: 'Open Sans', sans-serif;
+  color: #383939;
+}
+
+#skills-list {
+  color: #AB6D3B;
 }
 
 .content-display {
@@ -40,4 +48,19 @@ nav ul li {
     float: right;
   }
 
+}
+
+@media only screen and (max-width: 800px) {
+  .projects {
+     float: left;
+     text-align: center;
+     margin: 10px;
+     padding: 10px;
+     max-width: 15em;
+     height: 10em;
+     border: 1px solid black;
+  }
+  #project-window div{
+    width: 80%;
+  }
 }
