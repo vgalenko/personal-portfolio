@@ -1,4 +1,4 @@
-main, header {
+main, header, footer {
   width: 80%;
   margin: auto;
 }
@@ -15,7 +15,7 @@ header {
   left: 10%;
   top: 0;
   background: #EBEDEF;
-  text-shadow: 0 0 0 2px: #FF0000;
+  box-shadow: 0 1px 3px #CECECE, 0 1px 2px #CECECE;
 }
 
 h1 {
@@ -25,4 +25,14 @@ h1 {
   padding: .2em 0em .2em 0em;
   font-family: 'Open Sans', sans-serif;
   color: #434343;
+}
+
+footer {
+  margin-top: 10px;
+  padding: 5px 0 5px 0;
+  text-align: center;
+  background: #666666;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  color: white;
 }
