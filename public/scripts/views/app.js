@@ -18,3 +18,18 @@ $(document).ready(function(){
   let compileTemplate = Handlebars.compile(contentTemplate);
   $('.content-display').html(compileTemplate(skills));
 });
+
+$.ajax({
+	 url: 'https://api.github.com/user/repos',
+	 method:'GET',
+	 headers: {
+	  Authorization: `token ${githubToken}`
+ }
+  //.then sucess or fail
+}).then(
+  //sucess
+  data => data.map(repo => $('#results').append(`<p>${repo.name}</p>`,`<p>${repo.description}</p>`)),
+  //fail
+  err => console.error(err.status, err.statusText, ' is the way my stuff is broken'));
+
+// .then(sucess, fail)

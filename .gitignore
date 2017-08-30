@@ -1,1 +1,4 @@
 node_modules
+
+# Personal Access Tokens
+public/githubtoken.js
