@@ -18,6 +18,8 @@ app.get('./index', (req, res) => {
 });
 
 
+app.get('/*', (request, response) => response.sendFile('index.html', {root: './public'}));
+
 function proxyGitHub(request, response) {
   console.log('Routing GitHub request for', request.params[0]);
   (requestProxy({
