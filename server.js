@@ -7,7 +7,7 @@ const bodyParser = require('body-parser');
 const requestProxy = require('express-request-proxy');
 const PORT = process.env.PORT || 3000;
 const app = express();
-const conString = process.env.HEROKU_DATA;
+const conString = process.env.DATABASE_URL;
 const client = new pg.Client(conString);
 client.connect();
 
@@ -18,7 +18,9 @@ app.get('./index', (req, res) => {
 });
 
 
+
 app.get('/*', (request, response) => response.sendFile('index.html', {root: './public'}));
+
 
 function proxyGitHub(request, response) {
   console.log('Routing GitHub request for', request.params[0]);
