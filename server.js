@@ -17,6 +17,7 @@ app.get('./index', (req, res) => {
   res.sendFile('index.html', {root: './public'});
 });
 
+app.get('/*', (request, response) => response.sendFile('index.html', {root: './public'}));
 
 
 app.get('/*', (request, response) => response.sendFile('index.html', {root: './public'}));
